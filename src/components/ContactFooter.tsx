@@ -284,6 +284,7 @@ export const ContactFooter: React.FC = () => {
                     <span className="text-[9px] font-mono text-text-primary/70 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">Tamil (Native)</span>
                     <span className="text-[9px] font-mono text-text-primary/70 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">English (Fluent)</span>
                     <span className="text-[9px] font-mono text-text-primary/70 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">Hindi (Intermediate)</span>
+                    <span className="text-[9px] font-mono text-text-primary/70 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">Japanese (Beginner)</span>
                   </div>
                 </div>
               </div>
