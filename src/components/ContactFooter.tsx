@@ -36,22 +36,7 @@ const LinkedinIcon = ({ size = 18 }: { size?: number }) => (
   </svg>
 );
 
-const InstagramIcon = ({ size = 18 }: { size?: number }) => (
-  <svg
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
-    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-  </svg>
-);
+
 
 
 export const ContactFooter: React.FC = () => {
@@ -73,7 +58,6 @@ export const ContactFooter: React.FC = () => {
     location: "Coimbatore, Tamil Nadu, India",
     linkedin: "https://www.linkedin.com",
     github: "https://github.com/yazhini180406",
-    instagram: "https://www.instagram.com",
   };
 
   // Video Background (Flipped)
@@ -411,15 +395,6 @@ export const ContactFooter: React.FC = () => {
               title="GitHub Repositories"
             >
               <GithubIcon size={18} />
-            </a>
-            <a
-              href={PROFILE.instagram}
-              target="_blank"
-              rel="noreferrer"
-              className="text-muted hover:text-[#E1306C] transition-colors duration-200"
-              title="Instagram Profile"
-            >
-              <InstagramIcon size={18} />
             </a>
           </div>
 
