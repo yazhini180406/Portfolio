@@ -306,7 +306,7 @@ export const ContactFooter: React.FC = () => {
                   id="name"
                   type="text"
                   name="name"
-                  placeholder="e.g. John Doe"
+                  placeholder="e.g. inihzaY"
                   required
                   className="w-full bg-surface border border-stroke rounded-xl px-4 py-3 text-xs md:text-sm text-text-primary placeholder:text-muted/40 focus:outline-none focus:border-[#89AACC] transition-colors"
                 />
@@ -320,7 +320,7 @@ export const ContactFooter: React.FC = () => {
                   id="email"
                   type="email"
                   name="email"
-                  placeholder="e.g. john@example.com"
+                  placeholder="e.g. inihzay0918@gmail.com"
                   required
                   className="w-full bg-surface border border-stroke rounded-xl px-4 py-3 text-xs md:text-sm text-text-primary placeholder:text-muted/40 focus:outline-none focus:border-[#89AACC] transition-colors"
                 />
@@ -334,7 +334,7 @@ export const ContactFooter: React.FC = () => {
                   id="message"
                   name="message"
                   rows={4}
-                  placeholder="Type your message here..."
+                  placeholder="e.g. Hi inihzaY, I'd love to collaborate on a web app project or discuss full-stack opportunities with you..."
                   required
                   className="w-full bg-surface border border-stroke rounded-xl px-4 py-3 text-xs md:text-sm text-text-primary placeholder:text-muted/40 focus:outline-none focus:border-[#89AACC] transition-colors resize-none"
                 />
