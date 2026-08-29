@@ -1,0 +1,95 @@
+[
+  {
+    "id": "drone-grand-prix",
+    "title": "Drone Grand Prix – 1st Place",
+    "type": "National Level Competition",
+    "organizer": "Hindustan Institute of Technology and Science (HITS)",
+    "location": "Chennai, Tamil Nadu, India",
+    "date": "10th March 2026",
+    "desc": "Secured 1st Position in the Drone Grand Prix Competition, demonstrating strong skills in UAV design, control systems, and real-time problem-solving in a competitive environment.",
+    "tags": [
+      "UAV",
+      "Drone Technology",
+      "Aeronautical Engineering",
+      "Competition"
+    ],
+    "link": "https://drive.google.com/file/d/1Pd7OEDcjjWUpotcertKylZ3Q4ShSv8Mc/view?usp=sharing",
+    "featured": true
+  },
+  {
+    "id": "ieee-icacrs-2024",
+    "title": "EEE – Certificate of Presentation (ICACRS 2024)",
+    "researchTitle": "Revolutionizing VLSI Design: Integrating Quantum Dot Cellular Automata for Future-Ready System",
+    "type": "Research Presentation",
+    "organizer": "Mount Zion College of Engineering and Technology",
+    "location": "Pudukkottai, Tamil Nadu, India",
+    "date": "4–6 December 2024",
+    "desc": "Presented a research work focusing on advanced VLSI design methodologies using Quantum Dot Cellular Automata (QCA), aiming to develop future-ready, energy-efficient computing systems. Demonstrated understanding of nanoscale architectures and emerging semiconductor technologies.",
+    "tags": [
+      "Certificate"
+    ],
+    "link": "assets/certificates/273-3.pdf",
+    "featured": true
+  },
+  {
+    "id": "dcdc-stm32",
+    "title": "DCDC – Skill Development Program on STM32 Microcontroller",
+    "desc": "SRM Ramapuram DCDC participation",
+    "link": "assets/certificates/Hands On Section DCDC.pdf"
+  },
+  {
+    "id": "code-galatta",
+    "title": "Code Galatta – C, C++, Core Java & Python with Data Science",
+    "link": "assets/certificates/Code Galata.pdf"
+  },
+  {
+    "id": "nptel-design-thinking",
+    "title": "NPTEL – Design Thinking: A Primer",
+    "link": "assets/certificates/Design Thinking - A Primer.pdf"
+  },
+  {
+    "id": "rotary-community-connect",
+    "title": "Rotary Club of Erode – Community Project (Human Milk Bank)",
+    "link": "assets/certificates/Community Connect (NGO).pdf"
+  },
+  {
+    "id": "coolmaker-internship",
+    "title": "Cool Maker Solar Systems – Internship",
+    "link": "https://drive.google.com/file/d/1kbXs3KFwysbLeTkEunzH8HsiLayzttSk/view?usp=sharing"
+  },
+  {
+    "id": "srm-woppd-2024",
+    "title": "SRM/Optica – WOPPD 2024 Workshop",
+    "link": "assets/certificates/WOPPD.pdf"
+  },
+  {
+    "id": "amphenol-internship",
+    "title": "Amphenol Omniconnect – Internship",
+    "link": "assets/certificates/Internship Certificate.pdf"
+  },
+  {
+    "id": "oracle-foundations",
+    "title": "Oracle Certified Foundations Associate (HCM)",
+    "link": "assets/certificates/Orcale.pdf"
+  },
+  {
+    "id": "mongodb-atlas",
+    "title": "MongoDB Atlas Administration – Proof of Completion",
+    "link": "assets/certificates/MangoDB.pdf"
+  },
+  {
+    "id": "udemy-verilog",
+    "title": "Udemy – Verilog HDL: VLSI Hardware Design Masterclass",
+    "link": "assets/certificates/VSLI UDEMY.pdf"
+  },
+  {
+    "id": "addc-26",
+    "title": "Autonomous Drone Development Competition (ADDC)'26 by SAEINDIA",
+    "link": "https://drive.google.com/file/d/18LTpDZEK91iL2ODs49lhQI8zY76FmLWo/view?usp=sharing"
+  },
+  {
+    "id": "srm-pcb-internship",
+    "title": "Winter Internship program on PCB Design, Fabrication and Electronics Manufacturing System (EMS)",
+    "link": "https://drive.google.com/file/d/1kbXs3KFwysbLeTkEunzH8HsiLayzttSk/view?usp=sharing"
+  }
+]
