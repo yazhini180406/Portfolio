@@ -28,7 +28,7 @@ const PROFILE = {
     "Spring Boot & Java Developer",
     "Data Science Enthusiast"
   ],
-  resume: "#",
+  resume: "https://drive.google.com/file/d/1iugAYoHgEn1R0-vQt7Til-Oz1_PO7mLu/view?usp=sharing",
   badges: ["React.js", "Java", "Spring Boot", "Python", "TypeScript", "REST APIs", "SQLite", "Tailwind CSS"],
 };
 
