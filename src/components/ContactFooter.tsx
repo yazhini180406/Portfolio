@@ -56,7 +56,7 @@ export const ContactFooter: React.FC = () => {
     email: "yazhini1018@gmail.com",
     phone: "+91 8825676853",
     location: "Coimbatore, Tamil Nadu, India",
-    linkedin: "https://www.linkedin.com",
+    linkedin: "https://www.linkedin.com/in/yazhini18/",
     github: "https://github.com/yazhini180406",
   };
 
