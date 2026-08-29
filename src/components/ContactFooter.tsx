@@ -132,13 +132,25 @@ export const ContactFooter: React.FC = () => {
     setFormStatus({ type: null, msg: "" });
 
     const form = e.currentTarget;
-    const fd = new FormData(form);
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    // Anti-spam check for honeypot
+    if (data._gotcha) {
+      setIsSubmitting(false);
+      return;
+    }
+    delete data._gotcha;
+    delete data._honeypot;
 
     try {
       const res = await fetch("https://formspree.io/f/mljedwqe", {
         method: "POST",
-        headers: { Accept: "application/json" },
-        body: fd,
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify(data),
       });
 
       if (res.ok) {
@@ -148,9 +160,16 @@ export const ContactFooter: React.FC = () => {
           msg: "✓ Thanks! Your message was sent successfully.",
         });
       } else {
+        const errorData = await res.json().catch(() => null);
+        let errorMsg = "Sorry, there was a problem submitting your message.";
+        if (errorData && errorData.errors && Array.isArray(errorData.errors)) {
+          errorMsg = errorData.errors.map((item: any) => item.message).join(", ");
+        } else if (errorData && errorData.error) {
+          errorMsg = errorData.error;
+        }
         setFormStatus({
           type: "error",
-          msg: "Sorry, there was a problem. Please try again.",
+          msg: errorMsg,
         });
       }
     } catch (err) {
@@ -273,7 +292,12 @@ export const ContactFooter: React.FC = () => {
 
           {/* Contact Form (col-7) */}
           <div className="md:col-span-7 bg-surface/30 border border-stroke/80 p-6 md:p-8 rounded-3xl backdrop-blur-md">
-            <form onSubmit={handleSubmit} className="flex flex-col gap-5">
+            <form
+              action="https://formspree.io/f/mljedwqe"
+              method="POST"
+              onSubmit={handleSubmit}
+              className="flex flex-col gap-5"
+            >
               <div className="flex flex-col gap-2">
                 <label htmlFor="name" className="text-xs font-mono font-medium text-muted uppercase tracking-wider">
                   Your Name
@@ -319,10 +343,10 @@ export const ContactFooter: React.FC = () => {
               {/* Honeypot Spam Protection */}
               <input
                 type="text"
-                name="_honeypot"
+                name="_gotcha"
                 tabIndex={-1}
                 autoComplete="off"
-                className="absolute left-[-9999px] opacity-0"
+                className="hidden"
                 aria-hidden="true"
               />
 
