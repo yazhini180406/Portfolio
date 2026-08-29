@@ -333,10 +333,22 @@ export const Explorations: React.FC = () => {
                   onClick={() => handleCardClick(item.link)}
                   className="exploration-card group bg-surface border border-stroke rounded-2xl md:rounded-3xl overflow-hidden aspect-square flex flex-col justify-end p-4 md:p-6 cursor-pointer relative"
                 >
-                  {/* Schematic Blueprint Background */}
-                  <div className="absolute inset-0 z-0 flex items-center justify-center bg-[#070707]">
-                    {renderExplorationVector(originalIdx)}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/35 to-transparent z-10" />
+                  {/* Cover Photo Background & Blueprint Overlay */}
+                  <div className="absolute inset-0 z-0 overflow-hidden bg-[#070707]">
+                    {item.image && (
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 opacity-60 group-hover:opacity-85"
+                        onError={(e) => {
+                          (e.target as HTMLElement).style.display = "none";
+                        }}
+                      />
+                    )}
+                    <div className="absolute inset-0 opacity-25 pointer-events-none">
+                      {renderExplorationVector(originalIdx)}
+                    </div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent z-10 pointer-events-none" />
                   </div>
                 
                 {/* Content */}
@@ -371,10 +383,22 @@ export const Explorations: React.FC = () => {
                   onClick={() => handleCardClick(item.link)}
                   className="exploration-card group bg-surface border border-stroke rounded-2xl md:rounded-3xl overflow-hidden aspect-square flex flex-col justify-end p-4 md:p-6 cursor-pointer relative"
                 >
-                  {/* Schematic Blueprint Background */}
-                  <div className="absolute inset-0 z-0 flex items-center justify-center bg-[#070707]">
-                    {renderExplorationVector(originalIdx)}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/35 to-transparent z-10" />
+                  {/* Cover Photo Background & Blueprint Overlay */}
+                  <div className="absolute inset-0 z-0 overflow-hidden bg-[#070707]">
+                    {item.image && (
+                      <img
+                        src={item.image}
+                        alt={item.title}
+                        className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 opacity-60 group-hover:opacity-85"
+                        onError={(e) => {
+                          (e.target as HTMLElement).style.display = "none";
+                        }}
+                      />
+                    )}
+                    <div className="absolute inset-0 opacity-25 pointer-events-none">
+                      {renderExplorationVector(originalIdx)}
+                    </div>
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent z-10 pointer-events-none" />
                   </div>
                 
                 {/* Content */}

@@ -300,13 +300,25 @@ export const SelectedWorks: React.FC<SelectedWorksProps> = ({ projects }) => {
                 className={`group relative bg-surface border border-stroke rounded-3xl overflow-hidden min-h-[340px] md:min-h-0 md:aspect-auto md:h-[480px] flex flex-col justify-end cursor-pointer ${colSpan}`}
                 onClick={() => handleCardClick(project.link)}
               >
-                {/* Project Schematic Blueprint */}
-                <div className="absolute inset-0 z-0 flex items-center justify-center bg-[#050505]">
-                  {renderSchematic(idx)}
+                {/* Project Cover Photo & Blueprint Overlay */}
+                <div className="absolute inset-0 z-0 overflow-hidden bg-[#050505]">
+                  {project.image && (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700 opacity-60 group-hover:opacity-85"
+                      onError={(e) => {
+                        (e.target as HTMLElement).style.display = "none";
+                      }}
+                    />
+                  )}
+                  <div className="absolute inset-0 opacity-25 pointer-events-none">
+                    {renderSchematic(idx)}
+                  </div>
                   {/* Halftone texture overlay */}
                   <div className="absolute inset-0 halftone-overlay mix-blend-multiply opacity-30 pointer-events-none" />
                   {/* Card shadow overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/20 to-transparent z-10 pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/40 to-transparent z-10 pointer-events-none" />
                 </div>
 
                 {/* Content - Bottom Left */}
