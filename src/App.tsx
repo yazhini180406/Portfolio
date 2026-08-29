@@ -31,7 +31,7 @@ const PROJECTS: Project[] = [
     tags: ["Future Project", "Full Stack", "AI Integration", "Python"],
     link: "https://github.com/yazhini180406/AI-Tutor-Platform",
     github: "https://github.com/yazhini180406/AI-Tutor-Platform",
-    image: import.meta.env.BASE_URL + "images/logistics_drone.png",
+    image: import.meta.env.BASE_URL + "images/ai_tutor_platform_cover.png",
   },
   {
     title: "Skill Tracker App",
@@ -39,7 +39,15 @@ const PROJECTS: Project[] = [
     tags: ["Future Project", "React", "Spring Boot", "REST APIs"],
     link: "https://github.com/yazhini180406/SkillTracker",
     github: "https://github.com/yazhini180406/SkillTracker",
-    image: import.meta.env.BASE_URL + "images/battery_monitoring.png",
+    image: import.meta.env.BASE_URL + "images/skill_tracker_cover.png",
+  },
+  {
+    title: "Dairy-Resolve – Smart Quality Platform",
+    desc: "Engineered an industrial dairy resolution management web app for supply chain tracking, issue ticketing, and automated quality metrics analytics.",
+    tags: ["Full Stack", "Java", "Spring Boot", "Analytics"],
+    link: "https://github.com/yazhini180406/Dairy-Resolve",
+    github: "https://github.com/yazhini180406/Dairy-Resolve",
+    image: import.meta.env.BASE_URL + "images/dairy_resolve_cover.png",
   },
   {
     title: "EliteShop – E-Commerce Platform",
@@ -63,7 +71,7 @@ const PROJECTS: Project[] = [
     tags: ["Python", "Streamlit", "SQLite", "Plotly"],
     link: "https://github.com/yazhini180406/Spendify",
     github: "https://github.com/yazhini180406/Spendify",
-    image: import.meta.env.BASE_URL + "images/gas_monitoring.png",
+    image: import.meta.env.BASE_URL + "images/spendify_tracker_cover.png",
   },
   {
     title: "ComplaintHub – Centralized Service Desk",
