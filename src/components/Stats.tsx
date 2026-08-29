@@ -10,19 +10,19 @@ interface StatItem {
 export const Stats: React.FC = () => {
   const stats: StatItem[] = [
     {
-      number: "4+",
-      label: "Internships & Roles",
-      subtext: "Hands-on trainee experiences at Amphenol, Coolmaker, SRM IST, and UAV research labs.",
+      number: "2+",
+      label: "Software Internships",
+      subtext: "React JS Developer Intern at Nutz Technovation and Data Science Intern at Prochant India.",
     },
     {
-      number: "7+",
-      label: "Engineering Projects",
-      subtext: "Developed embedded systems, IoT simulators, and autonomous logistics UAV designs.",
+      number: "6+",
+      label: "Full-Stack & ML Projects",
+      subtext: "Built AI Tutor Platform, Skill Tracker App, EliteShop E-Commerce, ExpanseIQ, Spendify, and ComplaintHub.",
     },
     {
-      number: "12+",
-      label: "Certifications & Awards",
-      subtext: "Winner of National Drone Grand Prix, co-author of IEEE VLSI papers, and Oracle associate.",
+      number: "7.4",
+      label: "CGPA / Academic Score",
+      subtext: "B.E. Computer Science and Engineering at Sri Krishna College Of Engineering And Technology.",
     },
   ];
 

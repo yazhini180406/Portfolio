@@ -5,19 +5,19 @@ interface LoadingScreenProps {
   onComplete: () => void;
 }
 
-const WORDS = ["Synthesize", "Optimize", "Prototype", "Deploy"];
+const WORDS = ["Architect", "Compile", "Debug", "Refactor", "Deploy"];
 
 export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
   const [count, setCount] = useState(0);
   const [wordIndex, setWordIndex] = useState(0);
   const startTimeRef = useRef<number | null>(null);
-  const DURATION = 2700; // ms
+  const DURATION = 3000; // ms
 
   useEffect(() => {
-    // Rotating words cycle every 900ms
+    // Rotating words cycle every 600ms (5 terms = 3000ms)
     const wordInterval = setInterval(() => {
       setWordIndex((prev) => (prev + 1) % WORDS.length);
-    }, 900);
+    }, 600);
 
     // High performance count up using requestAnimationFrame
     const updateCount = (timestamp: number) => {
@@ -58,10 +58,10 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
           transition={{ duration: 0.6, ease: "easeOut" }}
           className="text-xs text-muted uppercase tracking-[0.3em] font-medium"
         >
-          ECE Portfolio '26
+          YAZHINI PORTFOLIO '26
         </motion.span>
         <span className="text-xs text-muted/40 uppercase tracking-widest font-mono">
-          Antigravity Engine v1.0
+          SOFTWARE IDE ENGINE v1.0
         </span>
       </div>
 
@@ -85,8 +85,8 @@ export const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
       <div className="flex flex-col gap-6">
         <div className="flex justify-between items-end">
           <span className="text-xs text-muted/60 max-w-xs leading-relaxed font-mono hidden md:block">
-            Initializing system registers...<br />
-            Configuring hardware abstraction layers...
+            Initializing IDE runtime environment...<br />
+            Compiling React.js & Spring Boot modules...
           </span>
           <div className="text-6xl md:text-8xl lg:text-9xl font-display text-text-primary leading-none tracking-tighter tabular-nums select-none">
             {String(count).padStart(3, "0")}

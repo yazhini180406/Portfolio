@@ -15,88 +15,46 @@ interface ExplorationItem {
 
 const ITEMS: ExplorationItem[] = [
   {
-    title: "National Drone Grand Prix",
-    category: "National Winner (1st)",
+    title: "React.js Frontend Architecture",
+    category: "Web Development",
     image: import.meta.env.BASE_URL + "images/exploration_2.png",
-    link: "https://drive.google.com/file/d/1Pd7OEDcjjWUpotcertKylZ3Q4ShSv8Mc/view?usp=sharing",
-    desc: "Secured 1st position at YDLO 2026 Techno-Cultural Fest, HITS, demonstrating UAV maneuverability.",
+    link: "#",
+    desc: "Mastered modular component design, Context API global state, and custom hooks.",
   },
   {
-    title: "Amphenol Trainee",
-    category: "Internship",
+    title: "Java & Spring Boot APIs",
+    category: "Backend Engineering",
     image: import.meta.env.BASE_URL + "images/exploration_1.png",
-    link: "assets/certificates/Internship Certificate.pdf",
-    desc: "Learned production workflows, quality engineering, and manufacturing specifications.",
+    link: "#",
+    desc: "Engineered scalable RESTful API microservices with MVC patterns and security layers.",
   },
   {
-    title: "Cool Maker Solar Systems",
-    category: "Technical Intern",
+    title: "Python Data Science & ML",
+    category: "Machine Learning",
     image: import.meta.env.BASE_URL + "images/exploration_9.png",
-    link: "assets/certificates/AKSHAY INTERSHIP 2.pdf",
-    desc: "Hands-on experience in solar panel layout design, installation, and heater servicing.",
+    link: "#",
+    desc: "Developed predictive data pipelines, feature engineering, and statistical analytics.",
   },
   {
-    title: "DCDC Club Training",
-    category: "Club Credentials",
+    title: "Relational Database & SQL",
+    category: "Database Design",
     image: import.meta.env.BASE_URL + "images/exploration_12.png",
-    link: "assets/certificates/Hands On Section DCDC.pdf",
-    desc: "Hands-on session on digital communication designs, protocols, and electronics boards.",
+    link: "#",
+    desc: "Structured relational schemas, complex query join optimizations, and SQLite integration.",
   },
   {
-    title: "Code Galata Certification",
-    category: "Programming",
-    image: import.meta.env.BASE_URL + "images/exploration_7.png",
-    link: "assets/certificates/Code Galata.pdf",
-    desc: "Programming workshop credential demonstrating logic synthesis and software foundations.",
-  },
-  {
-    title: "Design Thinking: Primer",
-    category: "NPTEL / IIT",
+    title: "UI/UX & Design Thinking",
+    category: "User Experience",
     image: import.meta.env.BASE_URL + "images/exploration_3.png",
-    link: "assets/certificates/Design Thinking - A Primer.pdf",
-    desc: "Verified foundational primer on user-centric design methodologies and problem framing.",
+    link: "#",
+    desc: "Applied user-centered prototyping, wireframing, and visual hierarchy standards.",
   },
   {
-    title: "Community Connect NGO",
-    category: "NGO Volunteering",
-    image: import.meta.env.BASE_URL + "images/exploration_8.png",
-    link: "assets/certificates/Community Connect (NGO).pdf",
-    desc: "Completed community service project for Human Milk Bank operations and documentation.",
-  },
-  {
-    title: "IEEE Presenter (ICACRS)",
-    category: "Research Presentation",
-    image: import.meta.env.BASE_URL + "images/exploration_10.png",
-    link: "assets/certificates/273-3.pdf",
-    desc: "Co-authored and presented VLSI QCA integration research at international conference.",
-  },
-  {
-    title: "WOPPD 2024 Photonics",
-    category: "SRM Workshop",
-    image: import.meta.env.BASE_URL + "images/exploration_11.png",
-    link: "assets/certificates/WOPPD.pdf",
-    desc: "Participated in specialized Photonics Workshop detailing lasers, lenses, and optical communication.",
-  },
-  {
-    title: "Oracle SQL Foundations",
-    category: "Industry Cert",
+    title: "Git & Version Control",
+    category: "DevOps & Workflow",
     image: import.meta.env.BASE_URL + "images/exploration_4.png",
-    link: "assets/certificates/Orcale.pdf",
-    desc: "Certified in database schemas, relationships, and SQL querying.",
-  },
-  {
-    title: "MongoDB Atlas Admin",
-    category: "Cloud Database",
-    image: import.meta.env.BASE_URL + "images/exploration_5.png",
-    link: "assets/certificates/MangoDB.pdf",
-    desc: "Learned cloud cluster administration, document modeling, and index optimization.",
-  },
-  {
-    title: "Verilog HDL Hardware Design",
-    category: "VLSI / Udemy",
-    image: import.meta.env.BASE_URL + "images/exploration_6.png",
-    link: "assets/certificates/VSLI UDEMY.pdf",
-    desc: "Advanced training in hardware description languages, RTL simulation, and logic synthesis.",
+    link: "#",
+    desc: "Collaborative branch workflows, pull request reviews, and CI/CD deployment logic.",
   },
 ];
 
@@ -332,7 +290,7 @@ export const Explorations: React.FC = () => {
     <section
       id="explorations"
       ref={containerRef}
-      className="relative min-h-[160vh] md:min-h-[220vh] bg-bg py-20 md:py-32 select-none"
+      className="relative min-h-0 md:min-h-[220vh] bg-bg py-16 md:py-32 select-none"
     >
       <div className="max-w-[1400px] mx-auto px-6 md:px-12 h-full flex flex-col md:flex-row relative">
         
@@ -349,10 +307,10 @@ export const Explorations: React.FC = () => {
               Visual <span className="italic font-normal">playground</span>
             </h2>
             <p className="text-sm md:text-base text-muted/80 leading-relaxed mb-8">
-              A gallery of specialized internships, professional certifications, and technical workshops exploring the frontiers of electronics, VLSI design, and database administration.
+              A gallery of technical domains, web architecture patterns, and software development methodologies spanning React.js frontend engineering, Java Spring Boot microservices, and Python data science pipelines.
             </p>
             <a
-              href="https://github.com/AKSHAY09012006"
+              href="https://github.com"
               target="_blank"
               rel="noreferrer"
               className="group inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-text-primary hover:text-muted transition-colors duration-200"

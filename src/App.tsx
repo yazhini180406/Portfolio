@@ -4,7 +4,6 @@ import { LoadingScreen } from "./components/LoadingScreen";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { SelectedWorks } from "./components/SelectedWorks";
-import { Journal } from "./components/Journal";
 import { Explorations } from "./components/Explorations";
 import { Stats } from "./components/Stats";
 import { WorkExperience, AcademicEducation } from "./components/ExperienceEducation";
@@ -12,76 +11,67 @@ import { ContactFooter } from "./components/ContactFooter";
 import type { Project } from "./types";
 
 const PROFILE = {
-  name: "Akshay S S",
+  name: "Yazhini R",
   summary:
-    "Electronics and Communication engineering enthusiast with hands‑on exposure to embedded systems, digital electronics, VLSI fundamentals, and UAV technology. Interested in practical prototyping, hardware description languages, and real‑time learning environments.",
+    "Computer Science undergraduate specializing in full-stack web development with React.js, Java, Python, and Spring Boot. Experienced in engineering modular UI architectures, integrating RESTful APIs, and developing scalable, data-driven applications.",
   roles: [
-    "Embedded Engineer",
-    "VLSI Designer",
-    "UAV Prototyper",
-    "Hardware Enthusiast"
+    "Full-Stack Software Engineer",
+    "React JS Developer",
+    "Spring Boot & Java Developer",
+    "Data Science Enthusiast"
   ],
-  resume: "https://drive.google.com/file/d/1z2NHkKZn5n6FKdJYHmMOXZq90VBg_C_l/view?usp=sharing",
-  badges: ["ECE", "VLSI", "Verilog HDL", "Embedded C", "IoT", "Digital Logic"],
+  resume: "#",
+  badges: ["React.js", "Java", "Spring Boot", "Python", "TypeScript", "REST APIs", "SQLite", "Tailwind CSS"],
 };
 
 const PROJECTS: Project[] = [
   {
-    title: "Autonomous Logistics Drone",
-    desc: "Autonomous UAV for precise payload delivery using computer vision and GPS. Features failsafe mechanisms, carbon fiber frame design, and reduced human intervention.",
-    tags: ["UAV", "Drone", "Computer Vision", "Embedded", "Logistics"],
-    link: "https://drive.google.com/drive/folders/1fclnMLwHnFThjI2CrSZsVXJsmFPDIvjM?usp=drive_link",
-    workflow: "https://drive.google.com/drive/folders/1fclnMLwHnFThjI2CrSZsVXJsmFPDIvjM?usp=drive_link",
-    report: "https://drive.google.com/drive/folders/1gagtuBQLaLjptNFnMS1WqHWTngn5SyLy?usp=sharing",
+    title: "AI Tutor Platform",
+    desc: "Built an AI-powered tutoring platform that analyzes uploaded PDFs to deliver personalized lessons through a virtual instructor with real-time doubt resolution.",
+    tags: ["Full Stack", "AI Integration", "Python", "PDF Analysis"],
+    link: "https://github.com",
+    github: "https://github.com",
     image: import.meta.env.BASE_URL + "images/logistics_drone.png",
   },
   {
-    title: "Smart Battery Monitoring (ESP32 / IoT)",
-    desc: "Real-time battery monitoring system measuring voltage and estimating SOC. Features local OLED telemetry graphs, ESP32 Wi-Fi for MQTT cloud data logging, and low-voltage alert triggers.",
-    tags: ["IoT", "ESP32", "MQTT", "Sensors", "Embedded C"],
-    link: "https://wokwi.com/projects/443977277636198401",
-    report: "https://drive.google.com/file/d/1QbtUvj67SesyGE46RAaKSby6MhH8pfKw/view?usp=sharing",
+    title: "Skill Tracker App",
+    desc: "Developed an employee management platform to track attendance records, manage skills, and monitor proficiency with structured data dashboards.",
+    tags: ["React", "Spring Boot", "REST APIs", "Java"],
+    link: "https://github.com",
+    github: "https://github.com",
     image: import.meta.env.BASE_URL + "images/battery_monitoring.png",
   },
   {
-    title: "Real-Time Gas Monitoring System (RTGMS)",
-    desc: "Embedded LPG/propane safety monitoring station combining an MQ-6 gas sensor, an HX711 weight load cell, a local buzzer alarm, and character LCD readouts.",
-    tags: ["Embedded C", "Sensors", "Hardware Prototypes"],
-    link: "https://wokwi.com/projects/437115151985582081",
-    report: "https://drive.google.com/file/d/1mMDl24n0oo1D2Rrw4yOzHp4PrSHluflJ/view?usp=sharing",
-    image: import.meta.env.BASE_URL + "images/gas_monitoring.png",
+    title: "EliteShop – E-Commerce Platform",
+    desc: "Engineered a responsive e-commerce platform with dynamic catalog browsing, cart management, Context API global state, and checkout flow.",
+    tags: ["React", "TypeScript", "Tailwind CSS", "Context API"],
+    link: "https://github.com",
+    github: "https://github.com",
+    image: import.meta.env.BASE_URL + "images/elite_shop.png",
   },
   {
-    title: "Vision Cane — Assistive Navigation",
-    desc: "A smart ultrasonic assistive cane for navigation, including dual ultrasonic sensor ranging, vibration motors for haptic feedback alerts, and user-centric ergonomics.",
-    tags: ["Embedded Hardware", "Ultrasonic Sensors", "Assisted Design"],
-    link: "https://drive.google.com/file/d/1HuYhNUWZTk_ZOqqtBCYQ4nLbB94SZIk4/view?usp=sharing",
-    report: "https://drive.google.com/file/d/1HuYhNUWZTk_ZOqqtBCYQ4nLbB94SZIk4/view?usp=sharing",
-    image: import.meta.env.BASE_URL + "images/vision_cane.png",
-  },
-  {
-    title: "ExpanseIQ — Expense Intelligence",
-    desc: "An expense intelligence web application prototype featuring secure tracking, category filters, and data visualization analytics dashboard.",
-    tags: ["Web App", "JavaScript", "Analytics"],
-    link: "assets/projects/ExpanseIQ/index.html",
-    github: "https://github.com/AKSHAY09012006/ExpanseIq.git",
+    title: "ExpanseIQ – Predictive Expense Analytics",
+    desc: "Created a financial analytics platform integrating machine learning models to forecast monthly expenditures and automated budget categorization.",
+    tags: ["Python", "Machine Learning", "Scikit-Learn", "Analytics"],
+    link: "https://github.com",
+    github: "https://github.com",
     image: import.meta.env.BASE_URL + "images/expanse_iq.png",
   },
   {
-    title: "Complaint Management Portal",
-    desc: "A digital portal for complaint submission, category assignment, and real-time status tracking.",
-    tags: ["Web Portal", "Database", "Tracking"],
-    link: "assets/projects/ComplaintSystem/index.html",
-    github: "https://github.com/AKSHAY09012006/ComplaintHub.git",
-    image: import.meta.env.BASE_URL + "images/complaint_portal.png",
+    title: "Spendify – Financial Tracker",
+    desc: "Built a Streamlit personal finance app to monitor budgets and track expenses with SQLite persistence and Plotly visual reports.",
+    tags: ["Python", "Streamlit", "SQLite", "Plotly"],
+    link: "https://github.com",
+    github: "https://github.com",
+    image: import.meta.env.BASE_URL + "images/gas_monitoring.png",
   },
   {
-    title: "Elite Shop — E-Commerce Prototype",
-    desc: "A mini online shop prototype containing dynamic product catalog displays, cart items registration, and checkout flows.",
-    tags: ["E-Commerce", "JavaScript", "UI Design"],
-    link: "assets/projects/EliteShop/index.html",
-    github: "https://github.com/AKSHAY09012006/EliteShop.git",
-    image: import.meta.env.BASE_URL + "images/elite_shop.png",
+    title: "ComplaintHub – Centralized Service Desk",
+    desc: "Architected a role-based service resolution web app utilizing React Context API for persistent session handling and ticket management.",
+    tags: ["React", "TypeScript", "Vite", "Tailwind CSS"],
+    link: "https://github.com",
+    github: "https://github.com",
+    image: import.meta.env.BASE_URL + "images/complaint_portal.png",
   },
 ];
 
@@ -114,8 +104,6 @@ function App() {
             <SelectedWorks projects={PROJECTS} />
             
             <WorkExperience />
-            
-            <Journal />
             
             <Explorations />
             

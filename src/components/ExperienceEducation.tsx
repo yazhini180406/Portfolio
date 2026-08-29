@@ -10,43 +10,25 @@ interface TimelineItem {
 
 const EXPERIENCE: TimelineItem[] = [
   {
-    period: "Jan 2026 — Present",
-    role: "Electronics Head",
-    where: "Aerospace & UAV Technology",
-    notes: "Lead CV integration efforts, sensor debugging, and flight systems configurations during drone assembly phases.",
+    period: "May 2026 – Jun 2026",
+    role: "React JS Developer Intern",
+    where: "Nutz Technovation Pvt. Ltd. • Erode, India",
+    notes: "Developed modular React.js web application features with responsive UI design, state management, and real-time REST API integration.",
   },
   {
-    period: "Dec 2025 — Jan 2026",
-    role: "Intern Trainee",
-    where: "SRM Institute of Science and Technology, Kattankulathur",
-    notes: "PCB manufacturing (chemical etching, masking) and hardware interfacing using ESP32 microcontrollers.",
-  },
-  {
-    period: "Jun 2025",
-    role: "Technical Intern",
-    where: "Coolmaker Solar Systems Pvt. Ltd.",
-    notes: "Learned solar system grid installation, water heater layouts, panel sizing, and electrical maintenance.",
-  },
-  {
-    period: "Dec 2024",
-    role: "Technical Trainee",
-    where: "Amphenol Omniconnect India Pvt. Ltd.",
-    notes: "Obtained industry exposure in automated connectors assembly, quality metrics, and specs documentation.",
+    period: "May 2025 – Jun 2025",
+    role: "Data Science Intern",
+    where: "Prochant India Pvt. Ltd. • Chennai, India",
+    notes: "Executed healthcare data workflow extraction, automated data transformation scripts in Python, and produced analytical summaries.",
   },
 ];
 
 const EDUCATION: TimelineItem[] = [
   {
-    period: "Aug 2023 — May 2027",
-    role: "Bachelor of Technology (B.Tech)",
-    where: "SRM Institute of Science & Technology, Ramapuram",
-    notes: "Specialization in Electronics & Communication Engineering. CGPA: 7.74",
-  },
-  {
-    period: "Jun 2022 — May 2023",
-    role: "Higher Secondary (Computer Maths)",
-    where: "Green Garden Matric. Hr. Sec. School, Erode",
-    notes: "Focus on Mathematics, Physics, Chemistry, and Computer Science. Percentage: 64%",
+    period: "Aug 2023 – May 2027",
+    role: "Bachelor of Engineering – Computer Science & Engineering",
+    where: "Sri Krishna College Of Engineering And Technology, Coimbatore",
+    notes: "Specialization in Computer Science & Engineering. CGPA: 7.4 / 10",
   },
 ];
 
@@ -71,7 +53,7 @@ export const WorkExperience: React.FC = () => {
             Work <span className="italic font-normal">experience</span>
           </h2>
           <p className="text-sm md:text-base text-muted/80 leading-relaxed max-w-xl">
-            A chronological timeline of my professional trainee experiences and internships.
+            A chronological timeline of my software engineering internships and technical roles.
           </p>
         </motion.div>
 
@@ -129,7 +111,7 @@ export const AcademicEducation: React.FC = () => {
             Academic <span className="italic font-normal">education</span>
           </h2>
           <p className="text-sm md:text-base text-muted/80 leading-relaxed max-w-xl">
-            My educational background and credentials.
+            My educational background and academic credentials.
           </p>
         </motion.div>
 

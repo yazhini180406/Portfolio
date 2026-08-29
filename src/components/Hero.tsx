@@ -114,18 +114,18 @@ export const Hero: React.FC<HeroProps> = ({ name, roles, summary, badges }) => {
       {/* Hero Content */}
       <div className="relative z-30 container max-w-5xl mx-auto px-6 md:px-12 flex flex-col items-center text-center mt-12 md:mt-20">
         {/* Eyebrow */}
-        <p className="blur-in text-xs font-semibold text-muted uppercase tracking-[0.3em] mb-6 md:mb-8">
-          ECE Portfolio Collection '26
+        <p className="blur-in text-[10px] sm:text-xs font-semibold text-muted uppercase tracking-[0.2em] sm:tracking-[0.3em] mb-4 md:mb-8">
+          FULL-STACK & REACT DEVELOPER PORTFOLIO '26
         </p>
 
         {/* Name */}
-        <h1 className="name-reveal text-5xl md:text-8xl lg:text-9xl font-display italic leading-none tracking-tight text-text-primary mb-6 md:mb-8 font-semibold select-none">
+        <h1 className="name-reveal text-4xl sm:text-7xl md:text-8xl lg:text-9xl font-display italic leading-none tracking-tight text-text-primary mb-4 md:mb-8 font-semibold select-none">
           {name}
         </h1>
 
         {/* Tagline / Roles Loop */}
         <div className="blur-in h-10 md:h-12 flex items-center justify-center mb-6 overflow-hidden">
-          <span className="text-lg md:text-2xl text-muted font-normal tracking-wide">
+          <span className="text-base sm:text-xl md:text-2xl text-muted font-normal tracking-wide">
             A{" "}
             <span
               key={roleIndex}
@@ -133,7 +133,7 @@ export const Hero: React.FC<HeroProps> = ({ name, roles, summary, badges }) => {
             >
               {roles[roleIndex]}
             </span>{" "}
-            based in Chennai.
+            based in Coimbatore.
           </span>
         </div>
 

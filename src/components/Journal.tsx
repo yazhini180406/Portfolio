@@ -14,20 +14,20 @@ interface JournalEntry {
 export const Journal: React.FC = () => {
   const entries: JournalEntry[] = [
     {
-      title: "Drone Grand Prix – 1st Place (National Level)",
-      category: "Achievement",
-      date: "YDLO 2026",
-      link: "https://drive.google.com/file/d/1Pd7OEDcjjWUpotcertKylZ3Q4ShSv8Mc/view?usp=sharing",
+      title: "Full-Stack Web Development & APIs",
+      category: "Certification",
+      date: "2026",
+      link: "#",
       icon: <Award className="w-5 h-5 text-[#89AACC]" />,
-      description: "Secured 1st Position at the YDLO 2026 Techno-Cultural Fest, Hindustan Institute of Technology and Science.",
+      description: "Specialized training in building responsive React applications integrated with Java Spring Boot backend REST APIs.",
     },
     {
-      title: "Revolutionizing VLSI Design: Integrating QCA",
-      category: "IEEE Publication",
-      date: "ICACRS 2024",
-      link: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10841562&isnumber=10841479",
+      title: "Data Science & Python Analytics",
+      category: "Internship Credential",
+      date: "2025",
+      link: "#",
       icon: <BookOpen className="w-5 h-5 text-[#4E85BF]" />,
-      description: "Co-authored and presented research on integrating Quantum-dot Cellular Automata for next-gen VLSI systems.",
+      description: "Executed data transformation pipelines and predictive analytics for healthcare datasets at Prochant India.",
     },
   ];
 

@@ -271,7 +271,7 @@ export const SelectedWorks: React.FC<SelectedWorksProps> = ({ projects }) => {
               Featured <span className="italic font-normal">projects</span>
             </h2>
             <p className="text-sm md:text-base text-muted/80 leading-relaxed">
-              A selection of embedded systems, IoT, and UAV prototypes designed and built from concept to hardware deployment.
+              A selection of full-stack web applications, REST API integrations, data science analytics, and interactive software dashboards.
             </p>
           </div>
           
@@ -297,7 +297,7 @@ export const SelectedWorks: React.FC<SelectedWorksProps> = ({ projects }) => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.7, delay: idx * 0.1, ease: [0.25, 0.1, 0.25, 1] }}
-                className={`group relative bg-surface border border-stroke rounded-3xl overflow-hidden aspect-[4/3] md:aspect-auto md:h-[480px] flex flex-col justify-end cursor-pointer ${colSpan}`}
+                className={`group relative bg-surface border border-stroke rounded-3xl overflow-hidden min-h-[340px] md:min-h-0 md:aspect-auto md:h-[480px] flex flex-col justify-end cursor-pointer ${colSpan}`}
                 onClick={() => handleCardClick(project.link)}
               >
                 {/* Project Schematic Blueprint */}

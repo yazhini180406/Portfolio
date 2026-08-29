@@ -68,12 +68,12 @@ export const ContactFooter: React.FC = () => {
 
   // Contact info
   const PROFILE = {
-    email: "akshaylakshna@gmail.com",
-    phone: "+91 7397662991",
-    location: "Chennai, Tamil Nadu, India",
-    linkedin: "https://www.linkedin.com/in/akshay-s-s-28089b345",
-    github: "https://github.com/AKSHAY09012006",
-    instagram: "https://www.instagram.com/akshay.iq/",
+    email: "yazhini1018@gmail.com",
+    phone: "+91 8825676853",
+    location: "Coimbatore, Tamil Nadu, India",
+    linkedin: "https://www.linkedin.com",
+    github: "https://github.com",
+    instagram: "https://www.instagram.com",
   };
 
   // Video Background (Flipped)
@@ -210,7 +210,7 @@ export const ContactFooter: React.FC = () => {
                 Let's make something <span className="italic font-normal">together</span>
               </h2>
               <p className="text-sm text-muted/80 leading-relaxed mb-8 max-w-sm">
-                Interested in hardware prototyping, embedded firmware development, or VLSI architecture projects? Reach out to collaborate!
+                Interested in full-stack web development, React.js UI design, or Spring Boot REST API projects? Reach out to collaborate!
               </p>
             </div>
 
@@ -262,10 +262,9 @@ export const ContactFooter: React.FC = () => {
                 <div>
                   <div className="text-[10px] text-muted font-mono uppercase tracking-wider">Languages</div>
                   <div className="flex flex-wrap gap-1 mt-1.5">
-                    <span className="text-[9px] font-mono text-text-primary/70 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">Malayalam (Native)</span>
-                    <span className="text-[9px] font-mono text-text-primary/70 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">Tamil (Fluent)</span>
+                    <span className="text-[9px] font-mono text-text-primary/70 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">Tamil (Native)</span>
                     <span className="text-[9px] font-mono text-text-primary/70 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">English (Fluent)</span>
-                    <span className="text-[9px] font-mono text-text-primary/70 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">German (Intermediate)</span>
+                    <span className="text-[9px] font-mono text-text-primary/70 bg-white/5 border border-white/10 px-2 py-0.5 rounded-md">Hindi (Intermediate)</span>
                   </div>
                 </div>
               </div>
@@ -401,7 +400,7 @@ export const ContactFooter: React.FC = () => {
 
           {/* Copyright */}
           <span className="text-xs text-muted/60 font-mono">
-            © {new Date().getFullYear()} Akshay S S • Ramapuram
+            © {new Date().getFullYear()} Yazhini R • Coimbatore
           </span>
         </div>
       </div>
