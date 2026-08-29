@@ -135,7 +135,7 @@ export const ContactFooter: React.FC = () => {
     const fd = new FormData(form);
 
     try {
-      const res = await fetch("https://formspree.io/f/xblqyywp", {
+      const res = await fetch("https://formspree.io/f/mljedwqe", {
         method: "POST",
         headers: { Accept: "application/json" },
         body: fd,
