@@ -72,7 +72,7 @@ export const ContactFooter: React.FC = () => {
     phone: "+91 8825676853",
     location: "Coimbatore, Tamil Nadu, India",
     linkedin: "https://www.linkedin.com",
-    github: "https://github.com",
+    github: "https://github.com/yazhini180406",
     instagram: "https://www.instagram.com",
   };
 

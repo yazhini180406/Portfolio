@@ -310,7 +310,7 @@ export const Explorations: React.FC = () => {
               A gallery of technical domains, web architecture patterns, and software development methodologies spanning React.js frontend engineering, Java Spring Boot microservices, and Python data science pipelines.
             </p>
             <a
-              href="https://github.com"
+              href="https://github.com/yazhini180406"
               target="_blank"
               rel="noreferrer"
               className="group inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-text-primary hover:text-muted transition-colors duration-200"
