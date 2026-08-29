@@ -10,6 +10,14 @@ import { WorkExperience, AcademicEducation } from "./components/ExperienceEducat
 import { ContactFooter } from "./components/ContactFooter";
 import type { Project } from "./types";
 
+import aiTutorCover from "./assets/images/ai_tutor_platform_cover.png";
+import skillTrackerCover from "./assets/images/skill_tracker_cover.png";
+import dairyResolveCover from "./assets/images/dairy_resolve_cover.png";
+import eliteShopCover from "./assets/images/elite_shop.png";
+import expanseIqCover from "./assets/images/expanse_iq.png";
+import spendifyCover from "./assets/images/spendify_tracker_cover.png";
+import complaintPortalCover from "./assets/images/complaint_portal.png";
+
 const PROFILE = {
   name: "Yazhini R",
   summary:
@@ -31,7 +39,7 @@ const PROJECTS: Project[] = [
     tags: ["Future Project", "Full Stack", "AI Integration", "Python"],
     link: "https://github.com/yazhini180406/AI-Tutor-Platform",
     github: "https://github.com/yazhini180406/AI-Tutor-Platform",
-    image: import.meta.env.BASE_URL + "images/ai_tutor_platform_cover.png",
+    image: aiTutorCover,
   },
   {
     title: "Skill Tracker App",
@@ -39,7 +47,7 @@ const PROJECTS: Project[] = [
     tags: ["Future Project", "React", "Spring Boot", "REST APIs"],
     link: "https://github.com/yazhini180406/SkillTracker",
     github: "https://github.com/yazhini180406/SkillTracker",
-    image: import.meta.env.BASE_URL + "images/skill_tracker_cover.png",
+    image: skillTrackerCover,
   },
   {
     title: "Dairy-Resolve – Smart Quality Platform",
@@ -47,7 +55,7 @@ const PROJECTS: Project[] = [
     tags: ["Full Stack", "Java", "Spring Boot", "Analytics"],
     link: "https://github.com/yazhini180406/Dairy-Resolve",
     github: "https://github.com/yazhini180406/Dairy-Resolve",
-    image: import.meta.env.BASE_URL + "images/dairy_resolve_cover.png",
+    image: dairyResolveCover,
   },
   {
     title: "EliteShop – E-Commerce Platform",
@@ -55,7 +63,7 @@ const PROJECTS: Project[] = [
     tags: ["React", "TypeScript", "Tailwind CSS", "Context API"],
     link: "https://github.com/yazhini180406/Elite-Shop",
     github: "https://github.com/yazhini180406/Elite-Shop",
-    image: import.meta.env.BASE_URL + "images/elite_shop.png",
+    image: eliteShopCover,
   },
   {
     title: "ExpanseIQ – Predictive Expense Analytics",
@@ -63,7 +71,7 @@ const PROJECTS: Project[] = [
     tags: ["Python", "Machine Learning", "Scikit-Learn", "Analytics"],
     link: "https://github.com/yazhini180406/ExpanseIQ",
     github: "https://github.com/yazhini180406/ExpanseIQ",
-    image: import.meta.env.BASE_URL + "images/expanse_iq.png",
+    image: expanseIqCover,
   },
   {
     title: "Spendify – Financial Tracker",
@@ -71,7 +79,7 @@ const PROJECTS: Project[] = [
     tags: ["Python", "Streamlit", "SQLite", "Plotly"],
     link: "https://github.com/yazhini180406/Spendify",
     github: "https://github.com/yazhini180406/Spendify",
-    image: import.meta.env.BASE_URL + "images/spendify_tracker_cover.png",
+    image: spendifyCover,
   },
   {
     title: "ComplaintHub – Centralized Service Desk",
@@ -79,7 +87,7 @@ const PROJECTS: Project[] = [
     tags: ["React", "TypeScript", "Vite", "Tailwind CSS"],
     link: "https://github.com/yazhini180406/ComplaintHub",
     github: "https://github.com/yazhini180406/ComplaintHub",
-    image: import.meta.env.BASE_URL + "images/complaint_portal.png",
+    image: complaintPortalCover,
   },
 ];
 

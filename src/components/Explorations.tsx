@@ -3,6 +3,13 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ExternalLink } from "lucide-react";
 
+import reactCover from "../assets/images/react_architecture_cover.png";
+import javaCover from "../assets/images/java_springboot_cover.png";
+import pythonCover from "../assets/images/python_datascience_cover.png";
+import sqlCover from "../assets/images/sql_database_cover.png";
+import uiuxCover from "../assets/images/uiux_design_cover.png";
+import gitCover from "../assets/images/git_devops_cover.png";
+
 gsap.registerPlugin(ScrollTrigger);
 
 interface ExplorationItem {
@@ -17,42 +24,42 @@ const ITEMS: ExplorationItem[] = [
   {
     title: "React.js Frontend Architecture",
     category: "Web Development",
-    image: import.meta.env.BASE_URL + "images/react_architecture_cover.png",
+    image: reactCover,
     link: "https://github.com/yazhini180406",
     desc: "Mastered modular component design, Context API global state, and custom hooks.",
   },
   {
     title: "Java & Spring Boot APIs",
     category: "Backend Engineering",
-    image: import.meta.env.BASE_URL + "images/java_springboot_cover.png",
+    image: javaCover,
     link: "https://github.com/yazhini180406",
     desc: "Engineered scalable RESTful API microservices with MVC patterns and security layers.",
   },
   {
     title: "Python Data Science & ML",
     category: "Machine Learning",
-    image: import.meta.env.BASE_URL + "images/python_datascience_cover.png",
+    image: pythonCover,
     link: "https://github.com/yazhini180406",
     desc: "Developed predictive data pipelines, feature engineering, and statistical analytics.",
   },
   {
     title: "Relational Database & SQL",
     category: "Database Design",
-    image: import.meta.env.BASE_URL + "images/sql_database_cover.png",
+    image: sqlCover,
     link: "https://github.com/yazhini180406",
     desc: "Structured relational schemas, complex query join optimizations, and SQLite integration.",
   },
   {
     title: "UI/UX & Design Thinking",
     category: "User Experience",
-    image: import.meta.env.BASE_URL + "images/uiux_design_cover.png",
+    image: uiuxCover,
     link: "https://github.com/yazhini180406",
     desc: "Applied user-centered prototyping, wireframing, and visual hierarchy standards.",
   },
   {
     title: "Git & Version Control",
     category: "DevOps & Workflow",
-    image: import.meta.env.BASE_URL + "images/git_devops_cover.png",
+    image: gitCover,
     link: "https://github.com/yazhini180406",
     desc: "Collaborative branch workflows, pull request reviews, and CI/CD deployment logic.",
   },
