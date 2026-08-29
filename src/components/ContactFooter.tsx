@@ -334,7 +334,7 @@ export const ContactFooter: React.FC = () => {
                   id="message"
                   name="message"
                   rows={4}
-                  placeholder="e.g. Hi inihzaY, I'd love to collaborate on a web app project or discuss full-stack opportunities with you..."
+                  placeholder="e.g. Hi! What's up? Let's collaborate on a project and work together..."
                   required
                   className="w-full bg-surface border border-stroke rounded-xl px-4 py-3 text-xs md:text-sm text-text-primary placeholder:text-muted/40 focus:outline-none focus:border-[#89AACC] transition-colors resize-none"
                 />
