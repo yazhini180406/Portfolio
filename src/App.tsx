@@ -77,8 +77,8 @@ const PROJECTS: Project[] = [
     title: "Spendify – Financial Tracker",
     desc: "Built a Streamlit personal finance app to monitor budgets and track expenses with SQLite persistence and Plotly visual reports.",
     tags: ["Python", "Streamlit", "SQLite", "Plotly"],
-    link: "https://github.com/yazhini180406/Spendify",
-    github: "https://github.com/yazhini180406/Spendify",
+    link: "https://github.com/yazhini180406/spendify",
+    github: "https://github.com/yazhini180406/spendify",
     image: spendifyCover,
   },
   {
